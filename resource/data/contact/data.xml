@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+    <Person>
+        <fullName>Анат Возний</fullName>
+        <firstName>Анат</firstName>
+        <lastName>Возний</lastName>
+        <addressOfPerson></addressOfPerson>
+        <firstTelNumber>+380962621888</firstTelNumber>
+        <secondTelNumber></secondTelNumber>
+        <thirdTelNumber></thirdTelNumber>
+        <noteForPerson></noteForPerson>
+    </Person>
+    <Person>
+        <fullName>Анат Мезон</fullName>
+        <firstName>Анат</firstName>
+        <lastName>Мезон</lastName>
+        <addressOfPerson></addressOfPerson>
+        <firstTelNumber>+380675643126</firstTelNumber>
+        <secondTelNumber></secondTelNumber>
+        <thirdTelNumber></thirdTelNumber>
+        <noteForPerson></noteForPerson>
+    </Person>
+    <Person>
+        <fullName>Андрій Ключ</fullName>
+        <firstName>Андрій</firstName>
+        <lastName>Ключ</lastName>
+        <addressOfPerson></addressOfPerson>
+        <firstTelNumber>+380970560865</firstTelNumber>
+        <secondTelNumber></secondTelNumber>
+        <thirdTelNumber></thirdTelNumber>
+        <noteForPerson></noteForPerson>
+    </Person>
+</Persons>

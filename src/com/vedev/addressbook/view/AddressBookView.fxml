@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vedev.addressbook.controller.PersonController">
+   <children>
+      <SplitPane layoutY="-1.0" prefHeight="400.0" prefWidth="220.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="personTable" layoutX="9.0" layoutY="68.0" prefHeight="330.0" prefWidth="220.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="55.0">
+                    <columns>
+                      <TableColumn fx:id="NameColumn" maxWidth="218.0" minWidth="218.0" prefWidth="218.0" text="Имя и фамилия" />
+                    </columns>
+                  </TableView>
+                  <TextField layoutY="-3.0" prefHeight="30.0" prefWidth="220.0" promptText="Введите имя или фамилию" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <Button layoutY="30.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="220.0" text="Поиск" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+      <SplitPane layoutX="220.0" prefHeight="400.0" prefWidth="420.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="98.0" text="Имя:" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="14.0" layoutY="132.0" text="Фамилия:" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="14.0" layoutY="165.0" text="Адресс:" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="14.0" layoutY="201.0" text="Телефонный номер #1:" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="11.0" layoutY="235.0" text="Телефонный номер #2:" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="14.0" layoutY="267.0" text="Телефонный номер #3:" AnchorPane.leftAnchor="14.0" />
+                  <Label layoutX="17.0" layoutY="300.0" text="Заметка:" AnchorPane.leftAnchor="14.0" />
+                  <Label fx:id="firstNameLabel" layoutX="215.0" layoutY="98.0" text="отсутствует" AnchorPane.bottomAnchor="343.0" AnchorPane.leftAnchor="215.0" />
+                  <Label fx:id="lastNameLabel" layoutX="215.0" layoutY="132.0" text="отсутствует" AnchorPane.leftAnchor="215.0" />
+                  <Label fx:id="addressLabel" layoutX="215.0" layoutY="165.0" text="отсутствует" AnchorPane.leftAnchor="215.0" />
+                  <Label fx:id="firstTelNumberLabel" layoutX="215.0" layoutY="201.0" text="отсутствует" AnchorPane.leftAnchor="215.0" />
+                  <Label fx:id="secondTelNumberLabel" layoutX="215.0" layoutY="235.0" text="отсутствует" AnchorPane.leftAnchor="215.0" />
+                  <Label fx:id="thirdTelNumberLabel" layoutX="215.0" layoutY="267.0" text="отсутствует" AnchorPane.leftAnchor="215.0" />
+                  <Button disable="true" layoutX="278.0" layoutY="419.0" mnemonicParsing="false" text="Сохранить заметку" AnchorPane.rightAnchor="14.0" />
+                  <ImageView fitHeight="85.0" fitWidth="400.0" layoutX="2.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
+                     <image>
+                        <Image url="@VK-CMYK-2_03.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="noteTextArea" layoutX="204.0" layoutY="306.0" prefHeight="100.0" prefWidth="190.0" AnchorPane.leftAnchor="215.0" AnchorPane.rightAnchor="14.0" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
